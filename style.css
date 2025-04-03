@@ -87,7 +87,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: white;
+  background-color: rgba(250, 249, 246, 1);
   color: #fff;
   padding: 10px;
   margin: 30px auto;
@@ -302,8 +302,8 @@ body.popup-active {
 
 .login-container {
   width: 350px;
-  padding: 40px 20px;
-  background: white;
+  padding: 40px 40px;
+  background: rgba(250, 249, 246, 1);
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -367,6 +367,7 @@ input {
   font-size: 14px;
   color: #000;
   transition: 0.3s ease;
+  padding-bottom: 3px;
 }
 
 .input-field {
@@ -424,7 +425,7 @@ button i {
   text-align: center;
   color: black;
   font-size: 12px;
-  margin-top: 15px;
+  margin-top: 10px;
   cursor: pointer;
   font-family: "work sans";
 }
