@@ -263,7 +263,7 @@ body.popup-active {
   justify-content: space-between;
   flex-direction: row;
   align-items: center;
-  padding: 0px 100px 0px 0px;
+
   margin-top: -130px;
   position: relative;
 }
@@ -302,7 +302,7 @@ body.popup-active {
 
 .login-container {
   width: 350px;
-  padding: 40px 40px;
+  padding: 40px 40px 30px 40px;
   background: rgba(250, 249, 246, 1);
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -441,6 +441,7 @@ button i {
   margin-right: 205px;
   font-size: 13px;
   font-weight: 300;
+  margin-top: -40px;
 }
 
 .assist-box p {
