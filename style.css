@@ -301,8 +301,9 @@ body.popup-active {
 /* Login Form */
 
 .login-container {
-  width: 350px;
-  padding: 40px 40px 30px 40px;
+  min-width: 400px;
+
+  padding: 40px 20px 30px 20px;
   background: rgba(250, 249, 246, 1);
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -312,6 +313,7 @@ body.popup-active {
   margin-top: -90px;
   font-weight: 600px;
   margin-right: 100px;
+  max-width: 90%;
 }
 
 .input-group {
@@ -438,7 +440,7 @@ button i {
   align-items: center;
   justify-self: flex-end;
   text-align: center;
-  margin-right: 205px;
+  margin-right: 235px;
   font-size: 13px;
   font-weight: 300;
   margin-top: -40px;
