@@ -302,8 +302,8 @@ body.popup-active {
 
 .login-container {
   min-width: 400px;
-
-  padding: 40px 20px 30px 20px;
+  height: 300px;
+  padding: 40px 20px 5px 20px;
   background: rgba(250, 249, 246, 1);
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -443,7 +443,7 @@ button i {
   margin-right: 235px;
   font-size: 13px;
   font-weight: 300;
-  margin-top: -40px;
+  margin-top: -20px;
 }
 
 .assist-box p {
