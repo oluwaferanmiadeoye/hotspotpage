@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Imperial+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=stacked_email"
+    />
+
+    <script
+      src="https://kit.fontawesome.com/a076d05399.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="shortcut icon" href="lfw_.png" type="image/x-icon" />
+
+    <title>CITS HOTSPOT PAGE</title>
+  </head>
+  <body>
+    <div class="menu-btn">
+      <i class="fas fa-bars fa-2x"></i>
+    </div>
+
+    <div class="container">
+      <div class="bottom"></div>
+      <div class="top"></div>
+
+      <!-- NavBar -->
+      <nav class="main-nav">
+        <img src="lfw_.png" alt="" class="logo" />
+
+        <ul class="main-menu">
+          <li>
+            <i class="fas fa-chart-line"> </i>
+            <a href="#" class="nav-btn">Dynamics365</a>
+          </li>
+          <li>
+            <i class="fas fa-headset"></i
+            ><a href="#" class="nav-btn">Help Desk</a>
+          </li>
+
+          <li>
+            <i class="fas fa-project-diagram"></i
+            ><a href="#" class="nav-btn">Sharepoint</a>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <a href="#" class="nav-btn" target="_blank">Email</a>
+          </li>
+
+          <li>
+            <i class="fas fa-globe"></i><a href="#" class="nav-btn">Intranet</a>
+          </li>
+        </ul>
+
+        <ul class="right-menu">
+          <li onclick="openPopup('faqPopup')">
+            <i class="fa-regular fa-circle-question" title="FAQ"></i>
+          </li>
+          <li onclick="openPopup('supportPopup')">
+            <i class="fa-solid fa-headset" title="SUPPORT"></i>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- Main Content -->
+
+      <div id="faqPopup" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('faqPopup')">&times;</span>
+          <h2>FAQ</h2>
+          <div class="faq-item">
+            <div class="faq-question number1">
+              Lorem ipsum dolor sit amet
+              <span class="arrow">&#9662;</span>
+            </div>
+            <div class="faq-answer">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quis
+              nostrum aut, beatae nam ut in?
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              Lorem ipsum dolor sit amet consectetur.
+              <span class="arrow">&#9662;</span>
+            </div>
+            <div class="faq-answer">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum
+              sapiente porro pariatur quasi doloribus repellendus. Provident
+              placeat minima ratione suscipit!.
+            </div>
+          </div>
+          <div class="faq-item">
+            <div class="faq-question">
+              Lorem ipsum dolor sit amet consectetur adipisicing.
+              <span class="arrow">&#9662;</span>
+            </div>
+            <div class="faq-answer">
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+              Voluptatem ipsam ipsum ad eius repellat minus laborum iste!
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Support Popup -->
+      <div id="supportPopup" class="popup">
+        <div class="popup-content">
+          <span class="close" onclick="closePopup('supportPopup')"
+            >&times;</span
+          >
+          <h2>Support</h2>
+          <p>Lorem ipsum dolor sit amet.</p>
+        </div>
+      </div>
+
+      <div class="content">
+        <div class="text">
+          <h2>
+            <span class="w">W</span><span class="el">elcome to the</span>
+            <span class="faith">FAITH TABERNACLE</span>
+            <span class="hotspot">HOTSPOT PAGE</span>
+          </h2>
+        </div>
+
+        <!-- Login Form -->
+
+        <div class="login-container">
+          <form class="login-form">
+            <div class="input-group login">
+              <label for="username" class="input-label">USERNAME</label>
+              <i class="fas fa-user"></i>
+              <input
+                type="text"
+                id="username"
+                placeholder=""
+                class="input-field"
+              />
+            </div>
+
+            <div class="input-group password">
+              <label for="password" class="input-label">PASSWORD</label>
+              <i class="fas fa-lock"></i>
+              <input
+                type="password"
+                id="password"
+                placeholder=""
+                class="input-field"
+              />
+            </div>
+
+            <button type="submit" class="login-btn">
+              Login <i class="fas fa-arrow-right"></i>
+            </button>
+
+            <p class="change-password">Change Login Password</p>
+          </form>
+        </div>
+      </div>
+
+      <!-- Assistance -->
+
+      <div class="assist-box">
+        <p class="assist-text">
+          Kindly click on <a href="" class="help">Help Desk</a> to open a
+          ticket<span> for the resolution of any IT issue.</span>
+        </p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
