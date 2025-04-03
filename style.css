@@ -275,6 +275,7 @@ body.popup-active {
   line-height: 1.1;
   font-family: "Poppins";
   margin-left: 100px;
+  margin-top: -150px;
 }
 
 .content span.el {
