@@ -239,10 +239,11 @@ body.popup-active {
 }
 .faq-answer {
   display: none;
-  padding: 10px;
-  font-size: 16px;
+  padding: 1px;
+  font-size: 13px;
   color: #333;
   transition: 0.3s ease;
+  text-align: left;
 }
 .arrow {
   transition: transform 0.3s ease;
@@ -275,7 +276,7 @@ body.popup-active {
   line-height: 1.1;
   font-family: "Poppins";
   margin-left: 100px;
-  margin-top: -150px;
+  margin-top: -10px;
 }
 
 .content span.el {
@@ -495,11 +496,12 @@ button i {
   }
 
   .main-nav {
-    margin: 10px 0px;
+    margin: 10px auto;
     background-color: white;
     opacity: 1;
     backdrop-filter: none;
     filter: none;
+    width: calc(100% - 50px);
   }
 
   .main-nav img {
@@ -566,6 +568,7 @@ button i {
 
   .content h2 {
     font-size: 1.5rem;
+    margin: -100px auto 20px auto;
   }
 
   .text {
@@ -576,8 +579,8 @@ button i {
   }
 
   .login-container {
-    width: 100%;
-    max-width: 400px;
+    min-width: 330px;
+    min-height: 290px;
     margin: 20px auto;
     position: relative;
     top: -70px;
@@ -589,8 +592,9 @@ button i {
     align-items: center;
     justify-content: center;
     text-align: center;
-    margin-right: 3px;
+    margin-right: 5px;
     width: 100%;
+    margin-top: -60px;
   }
 
   .assist-text {
@@ -599,7 +603,7 @@ button i {
   }
 }
 
-@media (min-width: 601px) and (max-width: 900px) {
+@media (min-width: 601px) and (max-width: 980px) {
   .container {
     height: 100vh;
     width: 100%;
@@ -608,6 +612,10 @@ button i {
   .menu-btn {
     display: block;
     top: 50px;
+  }
+
+  .main-nav {
+    width: calc(100% - 60px);
   }
 
   .main-nav ul.right-menu {
@@ -673,11 +681,14 @@ button i {
     z-index: 1000;
     justify-content: center;
     align-items: center;
-    margin-bottom: 20px;
+    margin-bottom: 1px;
+    text-align: center;
   }
 
   .content h2 {
     font-size: 1.5rem;
+
+    margin: -100px auto 20px auto;
   }
 
   .text {
@@ -693,6 +704,7 @@ button i {
     margin: 20px auto;
     position: relative;
     top: -70px;
+    min-height: 290px;
   }
 
   .assist-box {
@@ -711,17 +723,44 @@ button i {
   }
 }
 
-@media (min-width: 901px) and (max-width: 1200px) {
+@media (min-width: 990px) and (max-width: 1200px) {
   .container {
     height: 100vh;
     width: 100%;
   }
 
-  .content {
-    padding: 50px;
+  .main-nav {
+    width: calc(100% - 200px);
   }
+
+  .content {
+    padding: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+  }
+
+  .content h2 {
+    margin-top: -210px;
+  }
+
   .login-container {
     width: 400px;
+    margin-top: -200px;
+    margin-left: 0px;
+  }
+
+  .assist-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    margin-right: 170px;
+    width: 100%;
+    margin-top: -70px;
   }
 }
 
