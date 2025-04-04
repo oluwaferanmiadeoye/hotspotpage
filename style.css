@@ -213,7 +213,7 @@ body.popup-active {
   border-bottom: 1px solid #ddd;
   padding: 10px 0;
   width: 100%;
-  text-align: center;
+  text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
