@@ -304,8 +304,9 @@ body.popup-active {
 
 .login-container {
   min-width: 390px;
-  height: 290px;
-  padding: 50px 25px 0px 25px;
+  height: 310px;
+
+  padding: 30px 25px 0px 25px;
   background: rgba(250, 249, 246, 1);
   border-radius: 10px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
@@ -456,7 +457,7 @@ button i {
   margin-right: 235px;
   font-size: 13px;
   font-weight: 300;
-  margin-top: -20px;
+  margin-top: -10px;
 }
 
 .assist-box p {
@@ -512,7 +513,7 @@ button i {
     opacity: 1;
     backdrop-filter: none;
     filter: none;
-    width: calc(100% - 50px);
+    width: calc(100% - 30px);
   }
 
   .main-nav img {
@@ -579,7 +580,7 @@ button i {
 
   .content h2 {
     font-size: 1.5rem;
-    margin: -100px auto 20px auto;
+    margin: -40px auto 20px auto;
   }
 
   .text {
@@ -591,8 +592,8 @@ button i {
 
   .login-container {
     min-width: 330px;
-    min-height: 290px;
-    margin: 20px auto;
+    min-height: 320px;
+    margin: 5px auto;
     position: relative;
     top: -70px;
   }
@@ -605,7 +606,7 @@ button i {
     text-align: center;
     margin-right: 5px;
     width: 100%;
-    margin-top: -60px;
+    margin-top: 0px;
   }
 
   .assist-text {
@@ -699,7 +700,7 @@ button i {
   .content h2 {
     font-size: 1.5rem;
 
-    margin: -100px auto 20px auto;
+    margin: -170px auto 20px auto;
   }
 
   .text {
@@ -710,12 +711,12 @@ button i {
   }
 
   .login-container {
-    width: 100%;
     max-width: 400px;
+
     margin: 20px auto;
     position: relative;
     top: -70px;
-    min-height: 290px;
+    min-height: 310px;
   }
 
   .assist-box {
